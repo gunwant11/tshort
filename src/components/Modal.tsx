@@ -45,7 +45,7 @@ export const Modal = ({ shortened, isOpen, onClose }: ModalProps) => {
 
                 <div className=" px-2 pb-1 " >
                     Your new url is  <br/>
-                    <a href={shortened.includes("http")? shortened : `https://${shortened}`} target="_blank" className="text-blue-500" >{" "}{shortened}</a> 
+                    <a href={shortened.includes("http")? shortened : `https://${shortened}`} target="_blank" rel="noreferrer" className="text-blue-500" >{" "}{shortened}</a> 
                 </div>
             
             </div>
