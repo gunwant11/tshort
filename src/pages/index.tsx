@@ -30,6 +30,7 @@ const Home: NextPage = () => {
   } catch (err: any){
     setLoading(false)
     setError(err.response.data)
+    alert(err.response)
     console.log(err.response)
   }
  }
