@@ -6,16 +6,12 @@ export async function middleware(req: NextRequest, ev: NextFetchEvent, res: Next
         const slug = req.nextUrl.pathname.split("/").pop();
         console.log("retruning eml,marly",slug)
         // return NextResponse.redirect("https://nextjs.org/docs/messages/middleware-relative-urls")
-       
         const slugFetch = await fetch(`${req.nextUrl.origin}/api/get-url/${slug}`)
         if(slugFetch.status === 404){
             return NextResponse.redirect(req.nextUrl.origin)
         }
-
         const data = await slugFetch.json();
-
         // return  NextResponse.json(data) 
-
         if (data?.url) {
             if (data.url.startsWith("http")) {
                 return NextResponse.redirect(data.url);
@@ -28,7 +24,6 @@ export async function middleware(req: NextRequest, ev: NextFetchEvent, res: Next
              console.log('first')
             return NextResponse.redirect('/')
         }
-
     }
     catch (e: any) {
         console.log(e.message)
@@ -38,7 +33,6 @@ export async function middleware(req: NextRequest, ev: NextFetchEvent, res: Next
 }
 
 //
-
 
 export const config = {
     matcher: "/:slug/:slug",

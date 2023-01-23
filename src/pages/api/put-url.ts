@@ -3,8 +3,6 @@ import { prisma } from "../../db/client";
 import axios from "axios";
 
 
-
-
 export default async (req: NextApiRequest, res: NextApiResponse) => {
     try {
         if (req.method === 'POST') {
