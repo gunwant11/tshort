@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tshort 🚀
 
-## Getting Started
+Tshort is your high-speed URL shortener, transforming lengthy web addresses into concise, memorable links.
 
-First, run the development server:
+## About 📋
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Tshort is the ultimate solution for streamlining your links. With Tshort, Next.js powers the frontend, while Vercel Edge functions and Next Middleware handle the backend. Each URL is assigned a unique, user-friendly slug, meticulously stored in Planetscale and Prisma.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features 🚀
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Discover the cutting-edge features of Tshort:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- 🌐 **Next.js Frontend**: Crafted with the power of Next.js for a seamless user experience.
+- ⚙️ **Vercel Edge Functions**: Harness the agility of Vercel Edge functions for lightning-fast performance.
+- 🛡️ **Next Middleware**: Ensuring a secure and efficient backend experience.
+- 🏢 **Planetscale Database**: Store your valuable data with precision in Planetscale.
+- 🔄 **Prisma Database**: Utilize Prisma for efficient database management.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Tech Stack 💻
 
-## Learn More
+Tshort is powered by a tech stack designed for speed and reliability:
 
-To learn more about Next.js, take a look at the following resources:
+- ⚛️ [Next.js](https://nextjs.org/)
+- 💼 [Typescript](https://www.typescriptlang.org/)
+- 🌈 [Tailwind CSS](https://tailwindcss.com/)
+- 🌍 [Planetscale](https://planetscale.com/) Database
+- 🛠️ [Prisma](https://www.prisma.io/)
+- 📊 SQL (Structured Query Language)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enhance your link management with Tshort! 🌐🔗🚀
